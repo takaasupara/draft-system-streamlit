@@ -1,4 +1,6 @@
-streamlit
+streamlit>=1.36.0
 pandas
 supabase
 streamlit-cookies-manager
+requests
+python-dotenv
