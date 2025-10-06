@@ -1,0 +1,322 @@
+{
+  "1": {
+    "title": "test",
+    "date": "2025-10-04 14:15",
+    "status": "中止",
+    "participants": 3,
+    "choices": [
+      "a",
+      "b",
+      "c"
+    ],
+    "votes": {
+      "tak": {
+        "1位": "b",
+        "2位": "c",
+        "3位": "a"
+      }
+    },
+    "assigned": {}
+  },
+  "2": {
+    "title": "test2",
+    "date": "2025-10-04 14:25",
+    "status": "中止",
+    "participants": 1,
+    "choices": [],
+    "votes": {},
+    "assigned": {}
+  },
+  "3": {
+    "title": "test",
+    "date": "2025-10-04 14:29",
+    "status": "中止",
+    "participants": 1,
+    "choices": [
+      "aaaa",
+      "bbb"
+    ],
+    "votes": {},
+    "assigned": {}
+  },
+  "4": {
+    "title": "test4",
+    "date": "2025-10-04 14:46",
+    "status": "終了",
+    "participants": 1,
+    "choices": [
+      "a",
+      "b",
+      "c",
+      "d",
+      "e"
+    ],
+    "votes": {
+      "name1": {
+        "1位": "a",
+        "2位": "b",
+        "3位": "c"
+      }
+    },
+    "assigned": {
+      "name1": "a"
+    }
+  },
+  "5": {
+    "title": "test5",
+    "date": "2025-10-04 14:54",
+    "status": "終了",
+    "participants": 2,
+    "choices": [
+      "a",
+      "b",
+      "c"
+    ],
+    "votes": {
+      "name1": {
+        "1位": "b",
+        "2位": "a",
+        "3位": "c"
+      },
+      "name2": {
+        "1位": "a",
+        "2位": "b",
+        "3位": "c"
+      }
+    },
+    "assigned": {
+      "name1": "b",
+      "name2": "a"
+    }
+  },
+  "6": {
+    "title": "test",
+    "date": "2025-10-04 22:51",
+    "status": "終了",
+    "participants": 3,
+    "choices": [
+      "aaa",
+      "bbb",
+      "ccc"
+    ],
+    "votes": {
+      "name": {
+        "1位": "aaa",
+        "2位": "bbb",
+        "3位": "ccc"
+      },
+      "name2": {
+        "1位": "aaa",
+        "2位": "bbb",
+        "3位": "ccc"
+      },
+      "name3": {
+        "1位": "aaa",
+        "2位": "bbb",
+        "3位": "ccc"
+      }
+    },
+    "assigned": {
+      "name2": "aaa",
+      "name": "bbb",
+      "name3": "ccc"
+    }
+  },
+  "7": {
+    "title": "name6",
+    "date": "2025-10-05 21:36",
+    "status": "終了",
+    "participants": 2,
+    "choices": [
+      "111",
+      "222",
+      "333"
+    ],
+    "votes": {
+      "name": {
+        "1位": "111",
+        "2位": "222",
+        "3位": "333"
+      },
+      "test": {
+        "1位": "111",
+        "2位": "222",
+        "3位": "333"
+      }
+    },
+    "assigned": {
+      "name": "111",
+      "test": "222"
+    },
+    "created_by": "tak"
+  },
+  "8": {
+    "title": "test",
+    "date": "2025-10-05 21:53",
+    "status": "終了",
+    "participants": 1,
+    "choices": [
+      "aa",
+      "bb",
+      "cc"
+    ],
+    "votes": {
+      "name": {
+        "1位": "bb",
+        "2位": "aa",
+        "3位": "cc"
+      }
+    },
+    "assigned": {
+      "name": "bb"
+    },
+    "created_by": "tak"
+  },
+  "9": {
+    "title": "ｔtest",
+    "date": "2025-10-05 21:56",
+    "status": "終了",
+    "participants": 1,
+    "choices": [
+      "1",
+      "2",
+      "3"
+    ],
+    "votes": {
+      "name": {
+        "1位": "1",
+        "2位": "2",
+        "3位": "3"
+      }
+    },
+    "assigned": {
+      "name": "1"
+    },
+    "created_by": "tak"
+  },
+  "10": {
+    "title": "test",
+    "date": "2025-10-05 21:59",
+    "status": "終了",
+    "participants": 1,
+    "choices": [
+      "a"
+    ],
+    "votes": {
+      "name": {
+        "1位": "a"
+      }
+    },
+    "assigned": {
+      "name": "a"
+    },
+    "created_by": "tak"
+  },
+  "11": {
+    "title": "test",
+    "date": "2025-10-05 22:03",
+    "status": "中止",
+    "participants": 1,
+    "choices": [
+      "",
+      "",
+      ""
+    ],
+    "votes": {},
+    "assigned": {},
+    "created_by": "tak"
+  },
+  "12": {
+    "title": "test",
+    "date": "2025-10-05 22:03",
+    "status": "終了",
+    "participants": 1,
+    "choices": [
+      "a",
+      "b"
+    ],
+    "votes": {
+      "name": {
+        "1位": "a",
+        "2位": "b"
+      }
+    },
+    "assigned": {
+      "name": "a"
+    },
+    "created_by": "tak"
+  },
+  "13": {
+    "title": "test",
+    "date": "2025-10-05 22:09",
+    "status": "中止",
+    "participants": 1,
+    "choices": [
+      "1",
+      "1"
+    ],
+    "votes": {},
+    "assigned": {},
+    "created_by": "tak"
+  },
+  "14": {
+    "title": "test",
+    "date": "2025-10-05 22:13",
+    "status": "終了",
+    "participants": 1,
+    "choices": [
+      "2",
+      "3"
+    ],
+    "votes": {
+      "name": {
+        "1位": "2",
+        "2位": "3"
+      }
+    },
+    "assigned": {
+      "name": "2"
+    },
+    "created_by": "tak"
+  },
+  "15": {
+    "title": "test",
+    "date": "2025-10-05 22:14",
+    "status": "終了",
+    "participants": 1,
+    "choices": [
+      "1",
+      "2"
+    ],
+    "votes": {
+      "name": {
+        "1位": "1",
+        "2位": "2"
+      }
+    },
+    "assigned": {
+      "name": "1"
+    },
+    "created_by": "tak"
+  },
+  "16": {
+    "title": "test",
+    "date": "2025-10-05 22:18",
+    "status": "終了",
+    "participants": 1,
+    "choices": [
+      "1",
+      "3"
+    ],
+    "votes": {
+      "name": {
+        "1位": "1",
+        "2位": "3"
+      }
+    },
+    "assigned": {
+      "name": "1"
+    },
+    "created_by": "tak"
+  }
+}
