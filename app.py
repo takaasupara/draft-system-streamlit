@@ -7,7 +7,7 @@ from supabase import create_client, Client
 # -------- 環境設定 --------
 DATA_FILE = "drafts.json"
 CONFIG_FILE = "config.json"
-BASE_URL = "http://localhost:8501"   # 実運用URLに書き換え可
+BASE_URL = "https://draft-system-app-armvfexpppgyuyfb9vzbn6.streamlit.app"   # 実運用URLに書き換え可
 
 # ---------------------------
 # JSON 読み書き
