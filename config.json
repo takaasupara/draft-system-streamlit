@@ -1,5 +1,8 @@
 {
   "admins": [
-    { "username": "tak", "password": "fc4f20873ab0199bdb6d4f0130aa139e0922dfb5b66fcc805ec968979934b48c" }
+    {
+      "username": "admin",
+      "password": "240be518fabd2724ddb6f04eeb1da5967448d7e831c08c8fa822809f74c720a9"
+    }
   ]
 }
