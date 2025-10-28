@@ -336,9 +336,6 @@ elif page=="管理者":
     st.title("管理者ページ")
     if not st.session_state["logged_in"]:
         u=st.text_input("ユーザー名"); p=st.text_input("パスワード",type="password")
-        #デバッグ用
-        st.write("DEBUG:", load_config())
-
         if st.button("ログイン"):
             if next((a for a in ADMINS if a["username"]==u and a["password"]==hash_password(p)),None):
                 st.session_state["logged_in"]=True
