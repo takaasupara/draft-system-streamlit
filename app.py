@@ -42,10 +42,26 @@ def save_drafts(d):
 
 # --- config.json 代替 ---
 def load_config():
-    res = supabase.table("config").select("data").eq("id", "main").execute()
-    if not res.data:
-        return {"admins": []}
-    return res.data[0]["data"]
+    # ① JSON（config.json）を最優先で読む
+    try:
+        cfg = _load_json(CONFIG_FILE, None)
+        if isinstance(cfg, dict) and cfg.get("admins"):
+            return cfg
+    except Exception:
+        pass
+
+    # ② だめなら Supabase をフォールバック
+    try:
+        res = supabase.table("config").select("data").eq("id", "main").execute()
+        if res.data:
+            data = res.data[0].get("data")
+            if isinstance(data, dict) and data.get("admins") is not None:
+                return data
+    except Exception:
+        pass
+
+    # ③ どちらも無ければ空
+    return {"admins": []}
 
 def save_config(c):
     supabase.table("config").upsert({"id": "main", "data": c}).execute()
