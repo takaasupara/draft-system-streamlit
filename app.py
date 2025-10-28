@@ -3,10 +3,11 @@ import json, os, math, random, hashlib, datetime, urllib.parse, time
 import pandas as pd
 from streamlit_cookies_manager import EncryptedCookieManager
 from supabase import create_client, Client
+import os
 
 # -------- 環境設定 --------
 DATA_FILE = "drafts.json"
-CONFIG_FILE = "config.json"
+CONFIG_FILE = os.path.join(os.path.dirname(__file__), "config.json")
 BASE_URL = "https://draft-system-app-armvfexpppgyuyfb9vzbn6.streamlit.app"   # 実運用URLに書き換え可
 
 # ---------------------------
